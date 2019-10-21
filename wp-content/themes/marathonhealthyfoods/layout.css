@@ -3,7 +3,7 @@
 	
 	html#front #inner_body, html#home #inner_body{}
 	
-	html#front #inner_body .landing_caption, html#home #inner_body .landing_caption{position: absolute; bottom: 4%;}
+	html#front #inner_body .landing_caption, html#home #inner_body .landing_caption{position: absolute; bottom: 6%;}
 	html#front #inner_body .landing_caption h2, html#home #inner_body .landing_caption h2{font-size: 52px;}
 }
 
@@ -17,6 +17,7 @@
 }
 
 @media only screen and (max-width:1600px){
+	html#front #inner_body .landing_caption, html#home #inner_body .landing_caption{bottom: 18%;}
 }
 
 @media only screen and (max-width:1440px){
@@ -32,6 +33,7 @@
 }
 
 @media only screen and (max-width:1024px){
+	html#front #inner_body .landing_caption, html#home #inner_body .landing_caption{bottom: 24%;}
 }
 
 @media only screen and (min-width:1024px){
