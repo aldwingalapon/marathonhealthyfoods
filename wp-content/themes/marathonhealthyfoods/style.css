@@ -1,0 +1,59 @@
+/*
+Theme Name:         Marathon Healthy Foods
+Theme URI:          
+Description:        
+Version:            1
+Author:             The Holewinski Group
+Author URI:         http://www.holewinskigroup.com/
+Tags: 
+Text Domain: 		marathonhealthyfoods
+*/
+
+/*----------------------------------------------*/
+/* Global Reset */
+/*----------------------------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font: inherit;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+table {border-collapse: collapse; border-spacing: 0;}
+
+/*----------------------------------------------*/
+/* Extra Fonts */
+/*----------------------------------------------*/
+
+/*----------------------------------------------*/
+/* Base */
+/*----------------------------------------------*/
+* {margin: 0;}
+html{-webkit-tap-highlight-color:transparent; -webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;margin:0;padding:0;height:100%;overflow-y: scroll;}
+body{position:relative; color:#080E34; background-color: #FEFEFE; margin: 0; padding: 0; font-weight:300; font-size: 16px; height:100%;}
+img, article img, aside img, header img, section img, img[class*="align"] {max-width: 100%; margin-bottom:1rem;}
+img, article img, aside img, header img, section img, img[class*="align"] {height: auto; margin-bottom:1rem;}
+a, a:hover, a:active, a:focus {color:#FF351A; text-decoration:underline;}
+
+
+/*----------------------------------------------*/
+/* Header */
+/*----------------------------------------------*/
+header#main_header{}
+.top_header{display:block; width:100%; margin:0; padding-top: 1rem; padding-bottom: 1rem;}
+.top_header .brand{text-align:center;}
+
+/*----------------------------------------------*/
+/* Home */
+/*----------------------------------------------*/
+html#front, html#home{}
+html#front #inner_body, html#home #inner_body{background-image: url(images/hero-image@2x.png); min-height: 100%; min-width: 100%; background-position: center -4rem; background-repeat: no-repeat; background-size: cover;}
+
+/*----------------------------------------------*/
+/* Content */
+/*----------------------------------------------*/
+#main_content{}
+
+/*----------------------------------------------*/
+/* Footer */
+/*----------------------------------------------*/
+footer#main_footer{}
