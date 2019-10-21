@@ -19,17 +19,29 @@ ol, ul {list-style: none;}
 blockquote, q {quotes: none;}
 blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
 table {border-collapse: collapse; border-spacing: 0;}
+.center{text-align:center;}
+.text-white{color:#FFF;}
 
 /*----------------------------------------------*/
 /* Extra Fonts */
 /*----------------------------------------------*/
+@font-face {font-family: 'ProximaNova-Black'; src: url('fonts/proximanova-black-webfont.woff2') format('woff2'), url('fonts/proximanova-black-webfont.woff') format('woff'); font-weight: normal; font-style: normal;}
+@font-face {font-family: 'ProximaNova-Bold'; src: url('fonts/proximanova-bold-webfont.woff2') format('woff2'), url('fonts/proximanova-bold-webfont.woff') format('woff'); font-weight: normal; font-style: normal;}
+@font-face {font-family: 'ProximaNova-BoldIt'; src: url('fonts/proximanova-boldit-webfont.woff2') format('woff2'), url('fonts/proximanova-boldit-webfont.woff') format('woff'); font-weight: normal; font-style: normal;}
+@font-face {font-family: 'ProximaNova-Extrabold'; src: url('fonts/proximanova-extrabold-webfont.woff2') format('woff2'), url('fonts/proximanova-extrabold-webfont.woff') format('woff'); font-weight: normal; font-style: normal;}
+@font-face {font-family: 'ProximaNova-Light'; src: url('fonts/proximanova-light-webfont.woff2') format('woff2'), url('fonts/proximanova-light-webfont.woff') format('woff'); font-weight: normal; font-style: normal;}
+@font-face {font-family: 'ProximaNova-LightItalic'; src: url('fonts/proximanova-lightitalic-webfont.woff2') format('woff2'), url('fonts/proximanova-lightitalic-webfont.woff') format('woff'); font-weight: normal; font-style: normal;}
+@font-face {font-family: 'ProximaNova-Regular'; src: url('fonts/proximanova-regular-webfont.woff2') format('woff2'), url('fonts/proximanova-regular-webfont.woff') format('woff'); font-weight: normal; font-style: normal;}
+@font-face {font-family: 'ProximaNova-RegularItalic'; src: url('fonts/proximanova-regularitalic-webfont.woff2') format('woff2'), url('fonts/proximanova-regularitalic-webfont.woff') format('woff'); font-weight: normal; font-style: normal;}
+@font-face {font-family: 'ProximaNova-Semibold'; src: url('fonts/proximanova-semibold-webfont.woff2') format('woff2'), url('fonts/proximanova-semibold-webfont.woff') format('woff'); font-weight: normal; font-style: normal;}
+@font-face {font-family: 'ProximaNova-SemiboldItalic'; src: url('fonts/proximanova-semibolditalic-webfont.woff2') format('woff2'), url('fonts/proximanova-semibolditalic-webfont.woff') format('woff'); font-weight: normal; font-style: normal;}
 
 /*----------------------------------------------*/
 /* Base */
 /*----------------------------------------------*/
 * {margin: 0;}
 html{-webkit-tap-highlight-color:transparent; -webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;margin:0;padding:0;height:100%;overflow-y: scroll;}
-body{position:relative; color:#080E34; background-color: #FEFEFE; margin: 0; padding: 0; font-weight:300; font-size: 16px; height:100%;}
+body{position:relative; color:#080E34; background-color: #FEFEFE; margin: 0; padding: 0; font-family: 'ProximaNova-Regular'; font-size: 16px; font-weight:300; height:100%;}
 img, article img, aside img, header img, section img, img[class*="align"] {max-width: 100%; margin-bottom:1rem;}
 img, article img, aside img, header img, section img, img[class*="align"] {height: auto; margin-bottom:1rem;}
 a, a:hover, a:active, a:focus {color:#FF351A; text-decoration:underline;}
@@ -47,10 +59,13 @@ header#main_header{}
 /*----------------------------------------------*/
 html#front, html#home{}
 html#front #inner_body, html#home #inner_body{background-image: url(images/hero-image@2x.png); min-height: 100%; min-width: 100%; background-position: center -4rem; background-repeat: no-repeat; background-size: cover;}
+html#front #inner_body .landing_caption, html#home #inner_body .landing_caption{display: block; width: 100%;}
+html#front #inner_body .landing_caption h2, html#home #inner_body .landing_caption h2{font-family: 'ProximaNova-Bold';}
 
 /*----------------------------------------------*/
 /* Content */
 /*----------------------------------------------*/
+#inner_body{position:relative}
 #main_content{}
 
 /*----------------------------------------------*/
